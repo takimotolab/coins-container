@@ -1,0 +1,7 @@
+services:
+  coins:
+    platform: linux/x86_64
+    build: ./
+    image: coins-dev-container
+    tty: true
+    stdin_open: true
